@@ -1,0 +1,6 @@
+dist
+dist-xdc
+webxdc.js
+webxdc.d.ts
+package-lock.json
+vendor

@@ -1,15 +1,18 @@
 {
   "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "build": "node build.js",
     "start": "http-server -c 1 dist/"
   },
   "devDependencies": {
-    "terser": "^5.7.1"
-  },
-  "dependencies": {
-    "webxdc-scores": "github:webxdc/webxdc-scores",
+    "prettier": "2.8.8",
+    "terser": "^5.7.1",
     "http-server": "^14.1.1",
     "archiver": "^5.3.0",
     "del": "^6.0.0"
+  },
+  "dependencies": {
+    "webxdc-scores": "github:webxdc/webxdc-scores"
   }
 }
