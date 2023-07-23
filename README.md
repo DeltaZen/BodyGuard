@@ -1,5 +1,7 @@
 # Body Guard
 
+WebXDC port of Body Guard
+
 ## Build the game
 
 ```sh
