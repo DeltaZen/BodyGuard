@@ -1,6 +1,6 @@
 # Body Guard
 
-WebXDC port of Body Guard
+WebXDC port of Body Guard game
 
 ## Build the game
 
