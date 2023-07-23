@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "node build.js",
+    "start": "http-server -c 1 dist/"
+  },
+  "devDependencies": {
+    "terser": "^5.7.1"
+  },
+  "dependencies": {
+    "webxdc-scores": "github:webxdc/webxdc-scores",
+    "http-server": "^14.1.1",
+    "archiver": "^5.3.0",
+    "del": "^6.0.0"
+  }
+}
